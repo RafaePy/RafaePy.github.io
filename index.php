@@ -11,7 +11,7 @@ $res = $con->query($q);
 
 echo $res->num_rows;
 $data = $res->fetch_assoc();
-echo $data;
+
 echo "<h1>Name: " . $data['name'] . "<br/>" .
 "Location: " . $data['location'] . "<br/>" .
 "ID: " . $data['id'] . "<br/>" .
